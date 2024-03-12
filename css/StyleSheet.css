@@ -1,0 +1,186 @@
+footer {
+    margin-top: auto; 
+    text-align: center;
+    color: aliceblue;
+}
+
+body { 
+    /* Image */
+    background-image: url("../img/space_background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%; 
+    
+    height:100vh;
+    display:flex; 
+    flex-direction:column; 
+    padding-top: 7.5%;
+    margin-top: auto;
+}
+
+#anomaliesTable td{
+    padding: 20px;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}
+
+#anomaliesTable th{
+    padding: 20px;
+    font-size: 125%;
+}
+
+#anomaliesTable {
+    
+    background-color: rgba(0, 0, 0, 0.7);  
+}
+
+#logo {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+
+.container {
+    color: aliceblue;
+    font-family: 'Calibri', serif;
+    font-size: 125%;
+}
+
+.title {
+    font-size: 500%;
+    color: aliceblue;
+}
+
+.webDeveloperName {
+    color: lightcoral;
+}
+
+.corpLeaderName {
+    color: orange;
+}
+
+.carousel   {
+    margin:auto;
+    width:512px;
+    height:512px;
+}
+
+.row {
+    width: 100%;
+}
+
+.column {
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    
+    color: aliceblue;
+    font-family: 'Calibri', serif;
+
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.colored {
+    color: yellow;
+}
+
+.rating {
+    display: inline-block;
+    margin: auto;
+}
+  
+.like,
+.dislike {
+    display: inline-block;
+    cursor: pointer;
+    margin: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 75%;
+}
+  
+.dislike:hover,
+.like:hover {
+    color: #2EBDD1;
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+}
+
+/* Like pop-up information */
+.modal {
+    display: none; /* Hidden by default */
+    position: absolute; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 9%; /* Location of the box */
+
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+
+}
+  
+/* Modal Content */
+.modal .modal-content {
+    background-color: grey;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #888;
+    text-align: left;
+}
+
+.modal .modal-content .modal-body {
+    max-height: calc(100vh - 500px);
+    overflow-y: auto;
+    color: black;
+}
+
+.modal .modal-content .modal-header {
+    color: black;
+}
+
+  
+/* The Close Button */
+.modal .modal-content .close {
+    color: red;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: right;
+}
+  
+.modal .modal-content .close:hover{
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.modal-trigger{
+    color:red;
+    cursor: pointer;
+}
+
+.modal-trigger:hover{
+    background-color: #ddd;
+}
+
+
+
+/* ------------------------------ MOBILE ------------------------------ */
+@media(max-width: 575px) {
+    body {
+        padding-top:300px;
+        background-color: black;
+        background-image: url("../img/space_background_mobile.jpg");
+        background-attachment: fixed;
+    }
+    .nav-item  {
+        padding-left: 6px;
+    }
+
+    .carousel {
+        display: none;
+    }
+
+    .column {
+        height: 50%;
+    }
+}
