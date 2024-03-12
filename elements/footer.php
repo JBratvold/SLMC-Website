@@ -8,6 +8,6 @@
         <span class="fa fa-star colored"></span>
         <span class="fa fa-star"></span>
         <br> 
-        Maintained by: <i class="webDeveloperName">Sin Sacred</i>
+        Maintained by: <i class="webDeveloperName">Josh</i>
     </p>
 </footer>

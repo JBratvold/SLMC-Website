@@ -14,6 +14,7 @@
        
     <hr><h1>Members</h1><hr>
     <p>CEO and Founder: <span class="corpLeaderName">Jupiter Sacred</span></p>
+    <!-- REMOVED THE REST FOR PRIVACY PURPOSES AS IT'S PRIVATE WEBSITE -->
 </div>
   <!-- SCRIPTS -->
   <?php include 'elements/scripts.php'; ?>

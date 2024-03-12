@@ -11,11 +11,12 @@
 <?php include 'elements/navbar.php'; ?>
 
 <?php
-  $servername = "localhost";
-  $username = "admin";
-  $password = "joshua";
-  $dbname = "SacredMiningCorpDB";
-  $table = "feedback";
+  // Removed information for privacy reasons. (Ask Josh for the details if needed)
+  $servername = ""; 
+  $username = "";
+  $password = "";
+  $dbname = "";
+  $table = "";
   $conn = new mysqli($servername,$username, $password, $dbname);
 
   //If theres an error with the connection

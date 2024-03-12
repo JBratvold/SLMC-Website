@@ -11,11 +11,12 @@ $views = fread($fileViews,filesize("files/views.txt"));
 
   function get_up()
   {
-    $servername = "localhost";
-    $username = "admin";
-    $password = "joshua";
-    $dbname = "SacredMiningCorpDB";
-    $table = "thumbsUp";
+    // Removed for privacy reasons. (Ask josh if you need these)
+    $servername = "";
+    $username = "";
+    $password = "";
+    $dbname = "";
+    $table = "";
     $conn = new mysqli($servername,$username, $password, $dbname);
 
     //If theres an error with the connection
@@ -44,11 +45,12 @@ $views = fread($fileViews,filesize("files/views.txt"));
 
   function get_down()
   {
-    $servername = "localhost";
-    $username = "admin";
-    $password = "joshua";
-    $dbname = "SacredMiningCorpDB";
-    $table = "thumbsDown";
+    // Removed for privacy reasons.
+    $servername = "";
+    $username = "";
+    $password = "";
+    $dbname = "";
+    $table = "";
     $conn = new mysqli($servername,$username, $password, $dbname);
 
     //If theres an error with the connection
@@ -76,11 +78,11 @@ $views = fread($fileViews,filesize("files/views.txt"));
 
   if(isset($_POST['thumbUp']))
   {
-    $servername = "localhost";
-    $username = "admin";
-    $password = "joshua";
-    $dbname = "SacredMiningCorpDB";
-    $table = "thumbsUp";
+    $servername = "";
+    $username = "";
+    $password = "";
+    $dbname = "";
+    $table = "";
     $conn = new mysqli($servername,$username, $password, $dbname);
     
     //If theres an error with the connection
@@ -100,11 +102,11 @@ $views = fread($fileViews,filesize("files/views.txt"));
 
   if(isset($_POST['thumbDown']))
   {
-    $servername = "localhost";
-    $username = "admin";
-    $password = "joshua";
-    $dbname = "SacredMiningCorpDB";
-    $table = "thumbsDown";
+    $servername = "";
+    $username = "";
+    $password = "";
+    $dbname = "";
+    $table = "";
     $conn = new mysqli($servername,$username, $password, $dbname);
     
     //If theres an error with the connection
