@@ -5,7 +5,7 @@ An EVE Online Website made for players in the Sacred Legends Mining Corporation.
 
 Mining Yield Calculator:
 
-![Mining Calculator](img/MiningYieldCalculatorDemo.PNG)
+![Mining Calculator](img/MiningYieldCalculatorDemo.png)
 
 Important information such as Combat Sites
 
